@@ -4,9 +4,9 @@ This _**site_lat_ling.py**_ script reads an Excel file containing location infor
 
 # Resources
 
-[Python 3](https://www.python.org/doc/)
-[Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview)
-[Creation of Virtual Environments](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments)
+* [Python 3](https://www.python.org/doc/)
+* [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview)
+* [Creation of Virtual Environments](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments)
 
 # Run the program
 
@@ -18,8 +18,8 @@ Requirements
 * Use the provided `sites.xlsx` file as a template for your locations.
 * Create a .env file in the project directory and provide your the following variables:
 
-`GOOGLE_MAP_API_KEY=<Insert your Google key here>`
-`ENV_PATH='<Insert path to .env file here>'`
+    * `GOOGLE_MAP_API_KEY=<Insert your Google key here>`
+    * `ENV_PATH='<Insert path to .env file here>'`
 
 * Create an empty directory named `logs` in the project directory.
 
